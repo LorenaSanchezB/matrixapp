@@ -1,0 +1,25 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-2 offset-3">
+        <h3 class="display-1 text-center">{{name}}</h3>
+      </div>   
+      <br>  
+      
+      <div *ngIf="name === 'Morfeo'">
+                <p class="texto-grande">Morfeo te enseñará a superar tus límites, confía en su sabiduría
+           y deja que te oriente en cada paso de tu entrenamiento.</p>
+      </div>
+      <div *ngIf="name === 'Neo'">
+        <p class="texto-grande">Neo te desafiará para ir más allá, guiándote hacia un entrenamiento transformador que rompe barreras.</p>
+      </div>
+      <div *ngIf="name === 'Trinity'">      
+        <p class="texto-grande">Trinity te motivará a mantener la disciplina y a superar cualquier obstáculo,
+          mostrándote cómo la resistencia y la determinación son claves para tu progreso..</p>
+      </div>
+      <div *ngIf="name === 'Smith'">      
+        <p class="texto-grande">Smith te pondrá a prueba, enseñándote a mantener tu concentración y adaptabilidad para superar 
+          cualquier resistencia que se cruce en tu camino.</p>
+      </div>
+    </div>
+</div>

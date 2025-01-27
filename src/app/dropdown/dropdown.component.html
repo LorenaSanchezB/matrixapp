@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col offset-1">
+      <div class="dropdown d-grid gap-5 mx-center">
+        <button class="btn btn-success dropdown-toggle  col-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Técnica
+        </button>
+        <ul class="dropdown-menu  dropdown-menu-dark  col-6">
+          <li><button class="dropdown-item" type="button">{{opcion1}}</button></li>
+          <li><button class="dropdown-item" type="button">{{opcion2}}</button></li>
+          <li><button class="dropdown-item" type="button">{{opcion3}}</button></li>
+        </ul>
+      </div>
+    </div> 
+  
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col offset-1">
+      <div class="dropdown d-grid gap-5 mx-center">
+        <button class="btn btn-success dropdown-toggle  col-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Nivel
+        </button>
+        <ul class="dropdown-menu  dropdown-menu-dark  col-6">
+          <li *ngFor="let level of items"><button class="dropdown-item" type="button">{{level.nivel}}</button></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+ 
+
+</div>

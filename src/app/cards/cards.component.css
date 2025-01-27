@@ -1,0 +1,14 @@
+h1 {
+    display: inline-block;
+    background-color: #32d415;
+    color: rgb(230, 230, 230);     
+    text-shadow: 0 0 5px #32d415
+    0 0 10px #39ff14
+    0 0 40x #39ff14
+    0 0 60px #39ff14;  
+    text-align: left;
+    margin-left: 240px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+  }

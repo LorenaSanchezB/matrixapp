@@ -1,0 +1,16 @@
+h1{
+      display: inline-block;
+      background-color: hsl(123, 65%, 44%);
+        color: #ffffff; 
+        font-size: 30px;
+        font-weight: bold; 
+        margin-top: 50px;
+    }
+
+   
+    body {
+      background-image: url('/BC/fondo.png'); 
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat; 
+    }
